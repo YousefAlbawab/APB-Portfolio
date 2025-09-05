@@ -1,0 +1,43 @@
+{
+  "name": "yousef-albawab-portfolio",
+  "version": "1.0.0",
+  "description": "Product Manager Portfolio - Yousef Albawab",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Ready for deployment to any static hosting service'"
+  },
+  "keywords": [
+    "portfolio",
+    "product-manager",
+    "product-builder",
+    "web-development",
+    "browsy-browser",
+    "android-development",
+    "ai-development"
+  ],
+  "author": {
+    "name": "Yousef Albawab",
+    "email": "2001albawab@gmail.com",
+    "url": "https://github.com/YousefAlbawab"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YousefAlbawab/Portfolio"
+  },
+  "homepage": "https://yousefalbawab.github.io/Portfolio",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
